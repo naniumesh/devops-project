@@ -52,8 +52,8 @@ document.getElementById('reset-font').addEventListener('click', function() {
 
 
 const people = [
-            {name: "Hitesh Kumar Sharma",batch: "2017 - 2020",rank: "SUO",image: "Achive_images/SUO Hitesh Kumar Sharma YEP.jpg"},
-            {name: "Navaneet Singh",batch: "2022-2025",rank: "SUO",image: "Achive_images/Navaneet Singh.jpg"}
+            {name: "Hitesh Kumar Sharma",batch: "2017 - 2020",rank: "SUO",image: "./Achive_images/SUO Hitesh Kumar Sharma YEP.jpg"},
+            {name: "Navaneet Singh",batch: "2022-2025",rank: "SUO",image: "./Achive_Images/Navaneet Singh.jpg"}
         ];
 
         function displayPersonDetails(person) {
