@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: my-ncc-website
+    build: .
+    ports:
+      - "8081:80"
+    container_name: ncc-website

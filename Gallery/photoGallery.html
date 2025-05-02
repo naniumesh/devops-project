@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e55d87b16d.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- 1st Division -->
+    <div class="division1">
+      <!-- Left side of the division -->
+      <div class="left" style="margin-top: 5px;"><b>LPU-NCC</b>
+      </div>
+      <!-- Right side of the division -->
+      <div class="right">
+        <!-- Social media icons -->
+        <img src="LOGO's of 1st and 2nd DIV/icons8-expand-50.png" alt="Social Media Icons">
+        <!-- Font size buttons -->
+        <button id="increase-font"><img src="LOGO's of 1st and 2nd DIV/icons8-add-new-50.png" alt=""></button>
+        <button id="decrease-font"><img src="LOGO's of 1st and 2nd DIV/icons8-minus-24.png" alt=""></button>
+        <button id="reset-font"><img src="LOGO's of 1st and 2nd DIV/icons8-a-50 (1).png" alt=""></button>
+      </div>
+    </div>
+  
+  
+    <!-- 2nd Division NCC written Hindi and English -->
+    <div class="first-division">
+      <div class="ncc-section">
+        <div class="ncc-logo">
+          <a href = "../ADMIN PAGE/login page/login.html">
+            <img src="LOGO's of 1st and 2nd DIV/NCC LOGO.png" alt="NCC Logo">
+          </a>
+        </div>
+        <div class="ncc-text">
+          <div class="hindi-text">राष्ट्रीय कैडेट कोर</div>
+          <div class="english-text">National Cadet Corps</div>
+          <dic class="#">Unity and Discipline</dic>
+        </div>
+        <span class="nav-toggle" id="nav-toggle">☰</span> <!-- Hamburger icon -->
+      </div>
+      <div class="right-logos">
+  
+        <img src="LOGO's of 1st and 2nd DIV/Untitled design.png" alt="NCC Logo" width="220px">
+  
+  
+        <img src="LOGO's of 1st and 2nd DIV/seal.svg" alt="University Logo">
+  
+      </div>
+    </div>
+
+
+
+    <!-- 3rd Division Navigation Bar -->
+    <div class="division3" id="division3">
+      <nav>
+          <ul id="nav-menu">
+              <li><a href="../index.html">Home</a></li>
+              <li class="dropdown">
+                  <a href="#">About NCC</a>
+                  <div class="dropdown-content">
+                      <a href="../Aim of NCC/aimOfNCC.html">Aim of NCC</a>
+                      <a href="../Aim of NCC/coreValues.html">Core Values</a>
+                      <a href="../Aim of NCC/nccFlag.html">NCC Flag</a>
+                      <a href="../NCC SONG/nccSong.html">NCC Song</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                  <a href="#">NCC Policies</a>
+                  <div class="dropdown-content">
+                      <a href="../Aim of NCC/nccAct.html">NCC Act</a>
+                      <a href="https://websitedownloaddata.blob.core.windows.net/nccrules/nccRule.pdf" target="_blank">NCC Rules</a>
+                      <a href="../Aim of NCC/policesGuidelinces.html">Policies and Guidelines</a>
+                  </div>
+              </li>
+              <li><a href="../NccRankPage/alumni.html">Recommendation</a></li>
+              <li class="dropdown">
+                  <a href="#">Images</a>
+                  <div class="dropdown-content">
+                      <a href="../Gallery/photoGallery.html">Photo Gallery</a>
+                      <a href="../Gallery/videoGallery.html">Videos</a>
+                      <a href="../Gallery/activityGallery.html">Activity</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                  <a href="#">NCC Camps</a>
+                  <div class="dropdown-content">
+                      <a href="../Camps/Aboutcamps.html">About Camps</a>
+                      <a href="../Camps/RDC Camp.html">REPUBLIC DAY CAMP</a>
+                      <a href="../Camps/TSC.html">THAL SAINIK CAMP</a>
+                      <a href="../Camps/YOUTH.html">Youth Exchange Program(YEP)</a>
+                  </div>
+              </li>
+              <li class="dropdown">
+                  <a href="#">Institutional Corner</a>
+                  <div class="dropdown-content">
+                      <a href="../Aim of NCC/enrollmentProcedure.html">Enrollment Procedure</a>
+                      <a href="https://websitedownloaddata.blob.core.windows.net/nccrules/HAND BOOK SD SW Special Subject Army  Final 15 Oct.pdf" target="_blank">HandBook</a>
+                      <a href="../NccRankPage/Rank.html">Rank</a>
+                  </div>
+              </li>
+              <li>
+                  <button class="enroll-button" onclick="location.href='../registration-system/register.html'">NEW Enrollment 2025</button>
+              </li>
+              <li class="right-dash">
+                  <a href="https://ums.lpu.in/lpuums/StudentDashboard.aspx" target="_blank"><img 
+                      src="../Home page Image/icons8-home-24.png" alt="Dashboard Logo">Dashboard</a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+
+
+
+
+
+  <!-- 4th Division -->
+  <div class="division4">
+    <!-- Dynamic path display -->
+    <div class="path" id="path">Path: Home > Photo Gallery</div>
+    <!-- Social media icons -->
+    <div class="right">
+      <a href="https://www.instagram.com/lpuncc23_official/" target="_blank"><img
+          src="LOGO's of 1st and 2nd DIV/instagram.png" alt="Instagram Logo"></a>
+      <a href="https://www.youtube.com/@LPUNCC" target="_blank"><img src="LOGO's of 1st and 2nd DIV/youtube.png"
+          alt="YouTube Logo"></a>
+    </div>
+  </div>
+
+
+
+  <!-- Page Title -->
+  <section id="gallery">
+    <header class="container-fluid container-padding light-section">
+      <h3 class="section-heading mt-4 mb-0">Discover the beauty of LPU-NCC</h3>
+      <p class="text-center mt-4 mb-0">Embark on a journey through the vibrant tapestry of camaraderie and adventure
+        within LPU-NCC's captivating photo gallery.</p>
+      <hr class="mt-2" />
+    </header>
+  </section>
+
+  <!-- Gallery -->
+  <div class="container-fluid light-section">
+    <div class="gallery-container">
+      <a href="Photos for Gallery/1.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/1.jpg" alt="1">
+      </a>
+      <a href="Photos for Gallery/2.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/2.jpg" alt="2">
+      </a>
+      <a href="Photos for Gallery/3.jpeg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/3.jpeg" alt="3">
+      </a>
+      <a href="Photos for Gallery/4.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/4.jpg" alt="4">
+      </a>
+      <a href="Photos for Gallery/5.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/5.jpg" alt="5">
+      </a>
+      <a href="Photos for Gallery/6.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/6.jpg" alt="6">
+      </a>
+      <a href="Photos for Gallery/7.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/7.jpg" alt="7">
+      </a>
+      <a href="Photos for Gallery/8.png" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/8.png" alt="8">
+      </a>
+      <a href="Photos for Gallery/9.png" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/9.png" alt="9">
+      </a>
+      <a href="Photos for Gallery/10.png" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/10.png" alt="10">
+      </a>
+      <a href="Photos for Gallery/11.png" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/11.png" alt="11">
+      </a>
+      <a href="Photos for Gallery/12.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/12.jpg" alt="12">
+      </a>
+      <a href="Photos for Gallery/13.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/13.jpg" alt="13">
+      </a>
+      <a href="Photos for Gallery/14.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/14.jpg" alt="14">
+      </a>
+      <a href="Photos for Gallery/15.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/15.jpg" alt="15">
+      </a>
+      <a href="Photos for Gallery/16.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/16.jpg" alt="16">
+      </a>
+      <a href="Photos for Gallery/17.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/17.jpg" alt="17">
+      </a>
+      <a href="Photos for Gallery/18.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/18.jpg" alt="18">
+      </a>
+      <a href="Photos for Gallery/19.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/19.jpg" alt="19">
+      </a>
+      <a href="Photos for Gallery/20.png" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/20.png" alt="20">
+      </a>
+      <a href="Photos for Gallery/21.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/21.jpg" alt="21">
+      </a>
+      <a href="Photos for Gallery/22.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/22.jpg" alt="22">
+      </a>
+      <a href="Photos for Gallery/23.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/23.jpg" alt="23">
+      </a>
+      <a href="Photos for Gallery/24.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/24.jpg" alt="24">
+      </a>
+      <a href="Photos for Gallery/25.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/25.jpg" alt="25">
+      </a>
+      <a href="Photos for Gallery/26.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/26.jpg" alt="26">
+      </a>
+      <a href="Photos for Gallery/27.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/27.jpg" alt="27">
+      </a>
+      <a href="Photos for Gallery/28.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/28.jpg" alt="28">
+      </a>
+      <a href="Photos for Gallery/29.jpeg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/29.jpeg" alt="29">
+      </a>
+      <a href="Photos for Gallery/30.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/30.jpg" alt="30">
+      </a>
+      <a href="Photos for Gallery/31.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/31.jpg" alt="31">
+      </a>
+      <a href="Photos for Gallery/32.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/32.jpg" alt="32">
+      </a>
+      <a href="Photos for Gallery/33.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/33.jpg" alt="33">
+      </a>
+      <a href="Photos for Gallery/34.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/34.jpg" alt="34">
+      </a>
+      <a href="Photos for Gallery/35.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/35.jpg" alt="35">
+      </a>
+      <a href="Photos for Gallery/36.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/36.jpg" alt="36">
+      </a>
+      <a href="Photos for Gallery/37.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/37.jpg" alt="37">
+      </a>
+      <a href="Photos for Gallery/38.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/38.jpg" alt="38">
+      </a>
+      <a href="Photos for Gallery/39.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/39.jpg" alt="39">
+      </a>
+      <a href="Photos for Gallery/40.jpg" data-fancybox="gallery">
+        <img class="img-fluid img-thumbnail" src="Photos for Gallery/40.jpg" alt="40">
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="division6">
+    <div class="footer-links">
+      <a href="#">Feedback</a>
+      <a href="#">Website Policies</a>
+      <a href="#" onclick="showContact()">Contact Us</a>
+      <!-- <a href="#">Help</a> -->
+      <!-- <a href="#">Web Information Manager</a> -->
+    </div>
+  </div>
+
+  <div class="division7">
+    <p>Content Owned by LPU-NCC</p>
+    <p>Developed and hosted by Vivek Chand Nirala, Mallemkondu Umesh</p>
+    <p>All rights reserved Copyrights 2024.</p>
+  </div>
+
+
+  <!-- Contact Modal -->
+  <div id="modalOverlay" class="modal-overlay" onclick="closeContact(event)">
+    <div id="modalContent" class="modal-content">
+        <span class="close-btn" onclick="closeContact(event)">&times;</span>
+        <h2>Contact Us</h2>
+        <p><strong>Email: </strong>lpuncc24@gmail.com</p>
+        <p><strong>Phone: </strong>9988858588</p>
+        <p><strong>Office: </strong>Room.No:- 102, Block-13, Lovely Professional University</p>
+    </div>
+</div>
+
+
+
+  <!-- jQuery, Popper.js, Bootstrap JS, FancyBox -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-rI3DBwFs03DhFJvs9CIXQh0veu2/klI3vWzI1zR1nXz+x3FY7RmtAYLnAuFn1UIg" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
