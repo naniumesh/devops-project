@@ -68,7 +68,7 @@ document.getElementById('reset-font').addEventListener('click', function() {
     {name: "Tushar",batch: "2020 - 2023",rank: "UO",image: "Achive_Images/Tushar.jpg"},
     {name: "Ishika Tripathi",batch: "2020 - 2023",rank: "SGT",image: "Achive_Images/Ishika Tripathi.jpg"},
     {name: "Karamjit Singh",batch: "2021 - 2024",rank: "L/CPL",image: "Achive_Images/UO Karamjit Singh.jpg"},
-    {name: "Aman Sharma",batch: "2021 - 2024",rank: "SUO",image: "Achive_Images/Aman Sharma.jpg"},
+    {name: "Aman Sharma",batch: "2021 - 2024",rank: "SUO",image: "Achive_Images/Aman sharma.jpg"},
     {name: "Abhishek Sharma",batch: "2021 - 2024",rank: "UO",image: "Achive_Images/Abhishek Sharma.jpg"},
     {name: "Navneet Singh",batch: "2022 - 2025",rank: "CPL",image: "Achive_Images/Navneet Singh.jpg"},
     {name: "Avinash Korrai",batch: "2022 - 2025",rank: "UO",image: "Achive_Images/UO AVINASH.jpeg"},
