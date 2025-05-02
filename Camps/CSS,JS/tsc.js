@@ -56,19 +56,19 @@ const people = [
                 name: "Nikhila Yamini",
                 batch: "2017-2020",
                 rank: "UO",
-                image: "Achive_images/UO Nikhila Yamini.png",
+                image: "Achive_Images/UO Nikhila Yamini.png",
             },
             {
                 name: "Keelu Kailash",
                 batch: "2017 - 2020",
                 rank: "UO",
-                image: "Achive_images/UO Keelu Kailash.png",
+                image: "Achive_Images/UO Keelu Kailash.png",
             },
             {
                 name: "P Sai Prashant",
                 batch: "2018 - 2021",
                 rank: "CDT",
-                image: "Achive_images/Cadet P Sai Prashant.png",
+                image: "Achive_Images/Cadet P Sai Prashant.png",
             },
             {
                 name: "Roshan Kumar Mahto",
