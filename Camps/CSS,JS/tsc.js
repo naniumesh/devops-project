@@ -52,13 +52,13 @@ document.getElementById('reset-font').addEventListener('click', function() {
 
 
 const people = [
-            {name: "Nikhila Yamini",batch: "2017-2020",rank: "UO",image: "Achive_images/UO Nikhila Yamini.png"},
-            {name: "Keelu Kailash",batch: "2017 - 2020",rank: "UO",image: "Achive_images/UO Keelu Kailash.png"},
-            {name: "P Sai Prashant",batch: "2018 - 2021",rank: "CDT",image: "Achive_images/Cadet P Sai Prashant.png"},
-            {name: "Roshan Kumar Mahto",batch: "2020 -2023",rank: "UO",image: "Achive_images/UO Roshan Mahto.png"},
-            {name: "Anurag Kapadia",batch: "2020 - 2023",rank: "UO",image: "Achive_images/UO Anurag Kapadia.png"},
-            {name: "Yangzee Bhutia",batch: "2022 - 2025",rank: "UO",image: "Achive_Images/UO Yangzee.jpg"},
-            {name: "Anmol Anand",batch: "2023 - 2026",rank: "L/CPL",image: "Achive_images/Anmol Anand.jpeg"}
+            {name: "Nikhila Yamini",batch: "2017-2020",rank: "UO",image: "./Achive_Images/UO Nikhila Yamini.png"},
+            {name: "Keelu Kailash",batch: "2017 - 2020",rank: "UO",image: "./Achive_Images/UO Keelu Kailash.png"},
+            {name: "P Sai Prashant",batch: "2018 - 2021",rank: "CDT",image: "./Achive_Images/Cadet P Sai Prashant.png"},
+            {name: "Roshan Kumar Mahto",batch: "2020 -2023",rank: "UO",image: "./Achive_images/UO Roshan Mahto.png"},
+            {name: "Anurag Kapadia",batch: "2020 - 2023",rank: "UO",image: "./Achive_Images/UO Anurag Kapadia.png"},
+            {name: "Yangzee Bhutia",batch: "2022 - 2025",rank: "UO",image: "./Achive_Images/UO Yangzee.jpg"},
+            {name: "Anmol Anand",batch: "2023 - 2026",rank: "L/CPL",image: "./Achive_Images/Anmol Anand.jpeg"}
         ];
 
         function displayPersonDetails(person) {
